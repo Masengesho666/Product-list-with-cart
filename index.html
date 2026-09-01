@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Desserts | Product List with Cart</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="page">
+
+   
+    <section class="products-section">
+
+      <h1>Desserts</h1>
+
+      <div id="products" class="product-grid">
+
+        <!-- Waffle -->
+        <article class="product-card">
+          <div class="product-image-wrap">
+
+            <img
+              src="./assets//images/image-waffle-thumbnail.jpg"
+              alt="Waffle with Berries"
+              class="product-image"
+            >
+
+            <button
+              class="add-button"
+              type="button"
+              data-action="add"
+              data-id="1"
+            >
+              Add to Cart
+            </button>
+
+          </div>
+
+          <div class="product-info">
+            <p class="category">Waffle</p>
+
+            <h2 class="product-name">
+              Waffle with Berries
+            </h2>
+
+            <p class="price">$6.50</p>
+          </div>
+        </article>
+
+
+               <article class="product-card">
+          <div class="product-image-wrap">
+
+            <img
+              src="./assets/images/image-brownie-thumbnail.jpg"
+              alt="Vanilla Bean Crème Brûlée"
+              class="product-image"
+            >
+
+            <button
+              class="add-button"
+              type="button"
+              data-action="add"
+              data-id="2"
+            >
+              Add to Cart
+            </button>
+
+          </div>
+
+          <div class="product-info">
+            <p class="category">Crème Brûlée</p>
+
+            <h2 class="product-name">
+              Vanilla Bean Crème Brûlée
+            </h2>
+
+            <p class="price">$7.00</p>
+          </div>
+        </article>
+
+
+        
+        <article class="product-card">
+          <div class="product-image-wrap">
+
+            <img
+              src="./assets/images/image-waffle-thumbnail.jpg"
+              alt="Macaron Mix of Five"
+              class="product-image"
+            >
+
+            <button
+              class="add-button"
+              type="button"
+              data-action="add"
+              data-id="3"
+            >
+              Add to Cart
+            </button>
+
+          </div>
+
+          <div class="product-info">
+            <p class="category">Macaron</p>
+
+            <h2 class="product-name">
+              Macaron Mix of Five
+            </h2>
+
+            <p class="price">$8.00</p>
+          </div>
+        </article>
+
+
+      
+        <article class="product-card">
+          <div class="product-image-wrap">
+
+            <img
+              src="./assets/images/image-macaron-thumbnail.jpg"
+              alt="Classic Tiramisu"
+              class="product-image"
+            >
+
+            <button
+              class="add-button"
+              type="button"
+              data-action="add"
+              data-id="4"
+            >
+              Add to Cart
+            </button>
+
+          </div>
+
+          <div class="product-info">
+            <p class="category">Tiramisu</p>
+
+            <h2 class="product-name">
+              Classic Tiramisu
+            </h2>
+
+            <p class="price">$5.50</p>
+          </div>
+        </article>
+
+
+        <article class="product-card">
+          <div class="product-image-wrap">
+
+            <img
+              src="./assets/images/image-baklava-thumbnail.jpg"
+              alt="Pistachio Baklava"
+              class="product-image"
+            >
+
+            <button
+              class="add-button"
+              type="button"
+              data-action="add"
+              data-id="5"
+            >
+              Add to Cart
+            </button>
+
+          </div>
+
+          <div class="product-info">
+            <p class="category">Baklava</p>
+
+            <h2 class="product-name">
+              Pistachio Baklava
+            </h2>
+
+            <p class="price">$4.00</p>
+          </div>
+        </article>
+
+
+      
+        <article class="product-card">
+          <div class="product-image-wrap">
+
+            <img
+              src="./assets/images/image-meringue-thumbnail.jpg"
+              alt="Lemon Meringue Pie"
+              class="product-image"
+            >
+
+            <button
+              class="add-button"
+              type="button"
+              data-action="add"
+              data-id="6"
+            >
+              Add to Cart
+            </button>
+
+          </div>
+
+          <div class="product-info">
+            <p class="category">Pie</p>
+
+            <h2 class="product-name">
+              Lemon Meringue Pie
+            </h2>
+
+            <p class="price">$5.00</p>
+          </div>
+        </article>
+
+
+       
+        <article class="product-card">
+          <div class="product-image-wrap">
+
+            <img
+              src="./assets/images/image-cake-thumbnail.jpg"
+              alt="Red Velvet Cake"
+              class="product-image"
+            >
+
+            <button
+              class="add-button"
+              type="button"
+              data-action="add"
+              data-id="7"
+            >
+              Add to Cart
+            </button>
+
+          </div>
+
+          <div class="product-info">
+            <p class="category">Cake</p>
+
+            <h2 class="product-name">
+              Red Velvet Cake
+            </h2>
+
+            <p class="price">$4.50</p>
+          </div>
+        </article>
+
+
+        
+        <article class="product-card">
+          <div class="product-image-wrap">
+
+            <img
+              src="./assets/images/image-brownie-thumbnail.jpg"
+              alt="Salted Caramel Brownie"
+              class="product-image"
+            >
+
+            <button
+              class="add-button"
+              type="button"
+              data-action="add"
+              data-id="8"
+            >
+              Add to Cart
+            </button>
+
+          </div>
+
+          <div class="product-info">
+            <p class="category">Brownie</p>
+
+            <h2 class="product-name">
+              Salted Caramel Brownie
+            </h2>
+
+            <p class="price">$5.50</p>
+          </div>
+        </article>
+
+
+        
+        <article class="product-card">
+          <div class="product-image-wrap">
+
+            <img
+              src="./assets/images/image-panna-cotta-thumbnail.jpg"
+              alt="Vanilla Panna Cotta"
+              class="product-image"
+            >
+
+            <button
+              class="add-button"
+              type="button"
+              data-action="add"
+              data-id="9"
+            >
+              Add to Cart
+            </button>
+
+          </div>
+
+          <div class="product-info">
+            <p class="category">Panna Cotta</p>
+
+            <h2 class="product-name">
+              Vanilla Panna Cotta
+            </h2>
+
+            <p class="price">$6.50</p>
+          </div>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    
+    <aside class="cart-panel">
+
+      <h2>
+        Your Cart
+        <span id="cart-count">(0)</span>
+      </h2>
+
+
+     
+      <div id="empty-cart" class="empty-cart">
+
+        <img
+          src="./assets/images/illustration-empty-cart.svg"
+          alt=""
+        >
+
+        <p>
+          Your added items will appear here
+        </p>
+
+      </div>
+
+
+      
+      <div
+        id="cart-items"
+        class="cart-items"
+        hidden
+      >
+      </div>
+
+
+      
+      <div
+        id="cart-summary"
+        hidden
+      >
+
+        <div class="order-total">
+
+          <span>
+            Order Total
+          </span>
+
+          <strong id="order-total">
+            $0.00
+          </strong>
+
+        </div>
+
+
+        <div class="carbon-neutral">
+
+          <span aria-hidden="true">
+            ♧
+          </span>
+
+          <span>
+            This is a
+            <strong>carbon-neutral</strong>
+            delivery
+          </span>
+
+        </div>
+
+
+        <button
+          id="confirm-order"
+          class="confirm-button"
+          type="button"
+        >
+          Confirm Order
+        </button>
+
+      </div>
+
+    </aside>
+
+  </main>
+
+
+  
+
+  <div
+    id="modal"
+    class="modal"
+    hidden
+  >
+
+    <div
+      class="modal-backdrop"
+      data-close-modal
+    >
+    </div>
+
+
+    <section
+      class="modal-card"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="confirmation-title"
+      tabindex="-1"
+    >
+
+      <div
+        class="success-icon"
+        aria-hidden="true"
+      >
+        ✓
+      </div>
+
+
+      <h2 id="confirmation-title">
+        Order Confirmed
+      </h2>
+
+
+      <p>
+        We hope you enjoy your food!
+      </p>
+
+
+      <div
+        id="confirmed-items"
+        class="confirmed-items"
+      >
+      </div>
+
+
+      <div class="confirmed-total">
+
+        <span>
+          Order Total
+        </span>
+
+        <strong id="confirmed-total">
+          $0.00
+        </strong>
+
+      </div>
+
+
+      <button
+        id="new-order"
+        class="confirm-button"
+        type="button"
+      >
+        Start New Order
+      </button>
+
+    </section>
+
+  </div>
+
+
+  <script src="index.js"></script>
+
+</body>
+</html>
